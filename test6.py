@@ -1,6 +1,7 @@
 import requests
 import json
 import csv
+import os.path
 ##import pandas as pd
 count = 0
 url = "https://i.thonhotels.no/pub/sf/FormLink?_ri_=X0Gzc2X%3DAQpglLjHJlTQGkj48Jzb15yuAIPol4glMnyNzeweOReTlDTzaEAyiJwwnagf0zbvLjGVXyjLNpLOfhKLX%3DjLpkLxHNLgHggLgNLjKLgQghVXMtX%3DAQpglLjHJlTQGkj48Jzb15yuAIPol4glMnyNMSh8D17tza0mWUqfpywqNGlGqW5kJ&_ei_=Erdv7PMYfAm0WU0r9JH49_wmGS4.&_di_=t61475eoe4q8sm30kdnv2a5src77j1tgcqjvlp95rh6e65fep620RS_ENDPOINThttps://login2.responsys.netRS_PASSWORDkioSDKAQ8390dj!kjcvjhdKjdyuzshstyRS_USERNAMEAPI@ARCHIVE"
@@ -24,6 +25,7 @@ for i in data:
 ##Finish bottom of html table
 strTable = strTable+"</table></html>"
 ##Print to terminal
+if
 print(strTable)
 ##Save as html file
 hs = open("test6.html","w")
